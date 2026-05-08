@@ -77,4 +77,9 @@ return {
              },
          },
     },
+    misc = {
+        dictionary = {
+            fbl_highway = "5 Hands",
+        },
+    },    
 }    
