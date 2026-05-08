@@ -1,0 +1,16 @@
+{
+	"id": "Fabula",
+	"name": "Fabula",
+	"display_name": "Fabula",
+	"author": ["Clover"],
+	"description": "Flavorful Decks",
+	"prefix": "fbl",
+	"main_file": "main.lua",
+	"priority": 1,
+	"badge_colour": "a69053",
+	"badge_text_colour": "fbf8f0",
+	"version": "1.0",
+	"dependencies": [
+
+	        ],
+}
