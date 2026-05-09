@@ -7,7 +7,7 @@ return {
                 text = {
                     '{C:red}-1{} Ranura de Consumible',
                     'Al {C:attention}Seleccionar{} u {C:attention}Omitir{}',
-                    'una {C:attention}Ciega{} crea una',
+                    'una {C:attention}Ciega{} creas una',
                     '{C:tarot,T:c_wheel_of_fortune}Rueda de la Fortuna',
                     '{C:inactive,s:0.8}(Debe haber espacio)'
                 },
@@ -16,18 +16,17 @@ return {
                 name = "Baraja del Coleccionista",
                 text = {
                     'Comienzas con {C:attention,T:v_hone}Perfección{}',
-                    'y {C:attention}+1{} Ranura de Tienda adicional.',
-                    'Los Paquetes {C:planet}Celestiales{} y {C:tarot}Arcanos{}',
-                    'ya no aparecen'
+                    '{C:attention}+1{} Ranura de Tienda adicional.',
+                    'Los Paquetes {C:planet}Celestiales{} y',
+                    '{C:tarot}Arcanos{} ya no aparecen'
                 },
             },
             b_fbl_embarrassed = {
                 name = "Baraja Deudora",
                 text = {
-                    'Comienza la partida con',
-                    '{C:attention,T:v_seed_money}Siembra dinero{},',
+                    'Comienzas con {C:attention,T:v_seed_money}Siembra dinero{},',
                     'y una {C:attention,T:tag_coupon}Etiqueta de Cupón{}',
-                    'tiens {C:red}-$5{} de {C:attention}deuda{}'
+                    'tienes {C:red}-$5{} de {C:attention}deuda{}'
                 },
             },
             b_fbl_glitched = {
@@ -36,7 +35,8 @@ return {
                     '{C:attention}+#1#{} Ranura de Comodín',
                     'Tras derrotar cada {C:attention}Ciega Jefe{}',
                     'altera la {C:attention}categoría{} y el {C:attention}palo{} de',
-                    '{C:attention}todas las cartas de juego{} en tu baraja'
+                    '{C:attention}todas las cartas de juego{}',
+                    "en tu baraja",
                 },
             },
             b_fbl_star = {
@@ -45,7 +45,8 @@ return {
                     '{C:red}-1{} Ranura de Consumible y',
                     '{C:red}-1{} Paquete Potenciador en la tienda',
                     'Al {C:attention}Omitir{} una {C:attention}Ciega{}',
-                    '{C:planet}subes de nivel{} {C:attention}5{} manos de póker al azar'
+                    '{C:planet}subes de nivel{} {C:attention}5{}',
+                    "manos de póker al azar"
                 },
             },
             b_fbl_roller = {
@@ -69,8 +70,8 @@ return {
                 name = "Baraja del Terror",
                 text = {
                     'Después de cada {C:attention}Ciega Jefe{}',
-                    '{C:attention}llena{} las ranuras de consumibles',
-                    'con {C:tarot,T:c_hanged_man}El Colgado{}.',
+                    '{C:attention}llena{} las ranuras de',
+                    'consumibles con {C:tarot,T:c_hanged_man}El Colgado{}.',
                     'Las cartas con {C:dark_edition}Ediciones{} y',
                     'las Cartas del {C:tarot}Tarots{} ya no aparecen',
                 },
