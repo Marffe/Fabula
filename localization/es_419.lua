@@ -82,5 +82,5 @@ return {
        dictionary = {
            fbl_highway = "5 Manos",
        },
-   },    
-}    
+   },
+}
